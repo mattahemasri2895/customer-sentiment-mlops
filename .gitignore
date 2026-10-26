@@ -1,0 +1,50 @@
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Generated model and database files
+# Uncomment these if you do NOT want to upload them:
+# models/*.joblib
+# data/*.db
+
+# Local databases and exported customer data
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+data/predictions_export.csv
+
+# Local database and generated exports
+src/data/*.db
+src/data/*.sqlite
+src/data/*.sqlite3
+data/raw/*.tsv
+
+
+# Large datasets - keep locally, not in GitHub
+data/raw/
+data/processed/
+src/data/*.db
+src/data/*.sqlite
+src/data/*.sqlite3
+
+# Python generated files
+__pycache__/
+*.py[cod]

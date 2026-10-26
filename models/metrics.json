@@ -1,0 +1,10 @@
+{
+  "accuracy": 0.7168333333333333,
+  "test_samples": 18000,
+  "classes": [
+    "negative",
+    "neutral",
+    "positive"
+  ],
+  "random_state": 42
+}
